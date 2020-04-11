@@ -47,8 +47,17 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    'nuxt-fontawesome',
     '@nuxtjs/style-resources',
   ],
+
+  /*
+  ** FontAwesome
+  */
+  fontawesome: {
+    component: 'fa'
+  },
+
   /*
   ** Build configuration
   */
